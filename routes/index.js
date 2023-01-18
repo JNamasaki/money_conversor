@@ -1,9 +1,15 @@
-import express from "express";
-var router = express.Router();
+import express from 'express';
+import conversor from './conversorRoutes.js';
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
-});
+const routes = (app) => {
+    app.route('/').get((req, res) => {
+        res.status(200).send('Endpoint Iniciado');
+    })
 
-export default router;
+    app.use(
+        express.json(),
+        conversor
+    )
+}
+
+export default routes
