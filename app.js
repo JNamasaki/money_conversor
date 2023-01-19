@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import db from './configs/dbConfig.js';
 
-import indexRouter from './routes/index.js';
+import routes from './routes/index.js';
 
 db.on("error", console.log.bind(console, 'Erro de conexão'))
 db.once("open", () => {
@@ -23,18 +23,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 
-app.use('/', indexRouter);
+routes(app)
 
 
 
-app.get("/", (req, res) => {
-
-    res.send({
-            message: 'Endpoint inciado'
-        })
-        // res.status(200).json(livros)
-
-})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
