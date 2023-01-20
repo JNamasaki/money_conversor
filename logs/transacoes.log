@@ -144,3 +144,49 @@ Response Body:
 	}
 }
 Response: 201 85.443 ms 
+
+Request: GET /historico at Fri Jan 20 2023 11:32:52 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Response Body:
+[
+	{
+		"_id": "63caa0ad70435398a48aa49e",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "BRL",
+		"origin_value": 90.22,
+		"destination_coin": "EUR",
+		"destination_value": 16.19,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-08T11:35:16.000Z",
+		"__v": 0
+	},
+	{
+		"_id": "63caa0f3a60636003e947f2c",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "BRL",
+		"origin_value": 90.22,
+		"destination_coin": "EUR",
+		"destination_value": 16.19,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-20T11:10:16.000Z",
+		"__v": 0
+	},
+	{
+		"_id": "63caa28c9d79a808a6b2ea67",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "BRL",
+		"origin_value": 90.22,
+		"destination_coin": "JPY",
+		"destination_value": 1900.19,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-20T11:17:16.000Z",
+		"__v": 0
+	},
+	{
+		"_id": "63caa3c6cf4acfcaa8b08250",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value":
+...
+Response: 200 57.413 ms 

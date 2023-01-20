@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 
+
 const TransactionSchema = new mongoose.Schema({
     id_usuario: { type: String },
     origin_coin: { type: String, required: true },

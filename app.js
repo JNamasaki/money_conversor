@@ -7,6 +7,7 @@ import logger from 'morgan';
 import bodyParser from 'body-parser';
 import morganBody from 'morgan-body';
 import fs from 'fs';
+import moment from 'moment/moment.js';
 import db from './configs/dbConfig.js';
 
 import routes from './routes/index.js';
@@ -34,7 +35,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 const log = fs.createWriteStream(
-    path.join(__dirname, "./logs", "transacoes.log"), { flags: 'a' }
+    path.join(__dirname, "./logs", `transacoes-${moment().format('YYYY-MM-DD')}.log`), { flags: 'a' }
 )
 
 morganBody(app, {
@@ -65,5 +66,7 @@ app.use(function(err, req, res, next) {
         }
     })
 });
+
+
 
 export default app;

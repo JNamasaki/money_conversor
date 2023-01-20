@@ -1,3 +1,4 @@
+import moment from 'moment';
 import TransactionModels from '../configs/conversorModel.js';
 
 class TransactionsController {
@@ -11,6 +12,8 @@ class TransactionsController {
 
     static recordTransaction = (req, res) => {
         let record = new TransactionModels(req.body);
+
+        record.data_time = moment.utc()
 
         record.save((err) => {
             if (err) {

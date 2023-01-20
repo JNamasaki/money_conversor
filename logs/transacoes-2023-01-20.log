@@ -1,0 +1,308 @@
+
+Request: POST /conversor at Fri Jan 20 2023 16:57:03 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf20fd81efabe03f0c961",
+		"data_time": "2023-01-20T07:57:00.000Z"
+	}
+}
+Response: 200 13.153 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 16:58:12 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf2544834857a3c5a7f07"
+	}
+}
+Response: 200 29.906 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 16:58:25 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf2614834857a3c5a7f08"
+	}
+}
+Response: 200 5.038 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 16:59:44 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{}
+Response: 200 30.367 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:00:06 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": "2023-01-20T08:00:00.000Z"
+}
+Response: 200 15.619 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:00:59 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{}
+Response: 200 26.818 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:01:23 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"message": {}
+}
+Response: 500 49.600 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:01:59 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf337cfeb1f5009966e84"
+	}
+}
+Response: 200 27.408 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:06:51 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf45ba818f5e026346a72"
+	}
+}
+Response: 200 29.202 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:08:14 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"message": "ValidationError: data_time: Cast to date failed for value \"Invalid Date\" (type Date) at path \"data_time\" - fail to record transaction."
+}
+Response: 400 35.722 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:08:54 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf4d6a37c18b944ae5c87",
+		"data_time": "2023-01-20T08:08:00.000Z"
+	}
+}
+Response: 200 13.348 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:09:39 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"resultado": "Transação salva com sucesso!",
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf50341f9c3785dc35485",
+		"data_time": "2023-01-20T08:09:00.000Z",
+		"__v": 0
+	}
+}
+Response: 201 59.269 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:10:27 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"message": "ValidationError: data_time: Cast to date failed for value \"2023-01-20T05:10T-03:0020\" (type string) at path \"data_time\" - fail to record transaction."
+}
+Response: 400 31.380 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:13:01 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"message": "ValidationError: data_time: Cast to date failed for value \"Invalid Date\" (type Date) at path \"data_time\" - fail to record transaction."
+}
+Response: 400 47.593 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 17:16:15 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35
+}
+Response Body:
+{
+	"resultado": "Transação salva com sucesso!",
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"_id": "63caf68f80bdb54d5b713b9c",
+		"data_time": "2023-01-20T20:16:15.387Z",
+		"__v": 0
+	}
+}
+Response: 201 57.862 ms 
