@@ -1,8 +1,12 @@
 import createError from 'http-errors';
 import express from 'express';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
+import bodyParser from 'body-parser';
+import morganBody from 'morgan-body';
+import fs from 'fs';
 import db from './configs/dbConfig.js';
 
 import routes from './routes/index.js';
@@ -11,6 +15,11 @@ db.on("error", console.log.bind(console, 'Erro de conexão'))
 db.once("open", () => {
     console.log('Conexão com o banco feita com sucesso')
 })
+
+const __filename = fileURLToPath(
+    import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 var app = express();
 
@@ -22,7 +31,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+app.use(bodyParser.json());
 
+const log = fs.createWriteStream(
+    path.join(__dirname, "./logs", "transacoes.log"), { flags: 'a' }
+)
+
+morganBody(app, {
+    noColors: true,
+    stream: log
+})
 routes(app)
 
 

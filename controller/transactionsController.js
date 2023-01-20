@@ -15,14 +15,17 @@ class TransactionsController {
         record.save((err) => {
             if (err) {
                 res.status(400).send({
-                    message: `${err.message} - fail to record transaction.`
+                    message: `${err} - fail to record transaction.`
                 })
             } else {
-                res.status(201).send(record.toJSON())
+                res.status(201).send({
+                    resultado: 'Transação salva com sucesso!',
+                    transacao_gravada: record.toJSON()
+                })
             }
         });
 
-        res.status(201).send('Livro foi cadastrado com sucesso')
+
     }
 }
 

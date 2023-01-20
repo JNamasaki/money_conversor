@@ -1,0 +1,146 @@
+
+Request: GET / at Fri Jan 20 2023 11:08:20 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"_id": {
+		"$oid": "63bad539667ed290973107b4"
+	},
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "BRL",
+	"origin_value": 90.22,
+	"destination_coin": "EUR",
+	"destination_value": 16.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-08T11:35:16Z"
+}
+Response Body:
+Endpoint Iniciado
+Response: 200 3.425 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 11:08:58 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+
+Request: POST /conversor at Fri Jan 20 2023 11:09:49 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "BRL",
+	"origin_value": 90.22,
+	"destination_coin": "EUR",
+	"destination_value": 16.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-08T11:35:16Z"
+}
+Response Body:
+Livro foi cadastrado com sucesso
+Response: 201 9.129 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 11:10:59 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "BRL",
+	"origin_value": 90.22,
+	"destination_coin": "EUR",
+	"destination_value": 16.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-20T11:10:16Z"
+}
+Response Body:
+Livro foi cadastrado com sucesso
+Response: 201 18.080 ms 
+
+Request: GET /historico at Fri Jan 20 2023 11:12:10 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Response Body:
+[
+	{
+		"_id": "63caa0ad70435398a48aa49e",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "BRL",
+		"origin_value": 90.22,
+		"destination_coin": "EUR",
+		"destination_value": 16.19,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-08T11:35:16.000Z",
+		"__v": 0
+	},
+	{
+		"_id": "63caa0f3a60636003e947f2c",
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "BRL",
+		"origin_value": 90.22,
+		"destination_coin": "EUR",
+		"destination_value": 16.19,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-20T11:10:16.000Z",
+		"__v": 0
+	}
+]
+Response: 200 41.924 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 11:17:48 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "BRL",
+	"origin_value": 90.22,
+	"destination_coin": "JPY",
+	"destination_value": 1900.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-20T11:17:16Z"
+}
+Response Body:
+Transação salva com sucesso!
+Response: 201 11.437 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 11:23:02 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 130.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-20T11:22:16Z"
+}
+Response Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 130.19,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-20T11:22:16.000Z",
+	"_id": "63caa3c6cf4acfcaa8b08250",
+	"__v": 0
+}
+Response: 201 59.263 ms 
+
+Request: POST /conversor at Fri Jan 20 2023 11:24:50 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.30.0
+Request Body:
+{
+	"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+	"origin_coin": "EUR",
+	"origin_value": 90.22,
+	"destination_coin": "USD",
+	"destination_value": 131,
+	"conversion_tax": 5.35,
+	"data_time": "2023-01-20T11:24:16Z"
+}
+Response Body:
+{
+	"resultado": "Transação salva com sucesso!",
+	"transacao_gravada": {
+		"id_usuario": "ppIEWr9AXMnRxCe4AAAB",
+		"origin_coin": "EUR",
+		"origin_value": 90.22,
+		"destination_coin": "USD",
+		"destination_value": 131,
+		"conversion_tax": 5.35,
+		"data_time": "2023-01-20T11:24:16.000Z",
+		"_id": "63caa43251d42217641e095d",
+		"__v": 0
+	}
+}
+Response: 201 85.443 ms 
