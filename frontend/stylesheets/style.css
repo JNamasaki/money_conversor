@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+
+.form_converter {
+    margin: 2% 10%;
+    display: inline-block;
+    width: 700px;
+    text-align: center;
+}
+
+.select_coin {
+    padding: 1px;
+    border: 1px solid #5f6368;
+    caret-color: #8ab4f8;
+    color: #9aa0a6;
+    overflow: hidden;
+    display: flex;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.select_coin:hover {
+    border: 1px solid #bdc1c6;
+}

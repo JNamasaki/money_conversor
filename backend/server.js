@@ -25,5 +25,3 @@ process.on('SIGINT', () => {
     httpserver.close()
     console.log('App finalizado')
 })
-
-export default io;

@@ -1,6 +1,6 @@
 import express from "express";
-import TransactionsController from '../controller/transactionsController.js';
-import TransactionModels from '../configs/conversorModel.js'
+import TransactionsController from './controller/transactionsController.js';
+
 
 var router = express.Router();
 
